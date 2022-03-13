@@ -1,7 +1,15 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   /*Banner Content*/
-  
+  .banner-bg h1 {
+    font-size: 28px;
+  }
+  .banner-bg p {
+    font-size: 16px;
+  }
+  a {
+    font-size: 12px;
+  }
   /*Teams Content*/
   .team {
     width: 46%;
@@ -23,7 +31,24 @@
 @media all and (max-width: 670px) {
   /*Header Content*/
   
-  /*Banner Content*/
+   /*Banner Content*/
+
+   .banner{
+    text-align: left;
+  }
+  .banner-bg h1 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  
+  .banner-bg p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  a {
+    font-size: 10px;
+    line-height: 20px;
+  }
 
   /*Teams Content*/
   .team {

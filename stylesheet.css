@@ -32,6 +32,56 @@ a {
 
 /*Header Section*/
 
+
+/*Banner Section*/
+.banner {
+  padding: 200px 100px 0;
+  background-image: url(https://prog-8.com/assets/about/home_careers_bg-9e1eed63110bab46f617955a90a8d3c15f1a4a28ac6a65d672a0ec9d9411935b.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.banner-bg h1 {
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.banner-bg p {
+  opacity: 0.7;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.explore{
+  background-color:#C4C4C4;
+}
+a {
+  text-decoration: none;
+  font-size: 14;
+}
+
+.button {
+  padding: 12px 40px;
+  margin-bottom: 70px ;
+  color: black;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 7px #C4C4C4;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
 /*Teams Section*/
 .teams{
   background-color: #F7F7F7;
