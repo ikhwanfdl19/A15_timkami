@@ -1,0 +1,48 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /*Banner Content*/
+  
+  /*Teams Content*/
+  .team {
+    width: 46%;
+    margin: 15px 15px;
+  }
+
+  .team:active{
+    position: relative;
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 10px -5px #C4C4C4;
+  }
+  /*Message Content*/
+  .message-form{ 
+    max-width: 880px; 
+  } 
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /*Header Content*/
+  
+  /*Banner Content*/
+
+  /*Teams Content*/
+  .team {
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  /*Message Conten*/
+  .message-form { 
+    max-width: 550px; 
+  } 
+ 
+  .img { 
+    display: none; 
+  } 
+ 
+  input[type=text], select, textarea { 
+    width: 94%; 
+  }
+
+  /*Footer Content*/
+}
