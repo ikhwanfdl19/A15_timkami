@@ -1,6 +1,7 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  /*Banner Content*/
+  
+  /*Main Content*/
   .banner-bg h1 {
     font-size: 28px;
   }
@@ -31,8 +32,7 @@
 @media all and (max-width: 670px) {
   /*Header Content*/
   
-   /*Banner Content*/
-
+   /*Main Content*/
    .banner{
     text-align: left;
   }
