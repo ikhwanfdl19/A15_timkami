@@ -59,6 +59,8 @@ a {
   padding: 190px 100px 0;
   background-image: url(https://prog-8.com/assets/about/home_careers_bg-9e1eed63110bab46f617955a90a8d3c15f1a4a28ac6a65d672a0ec9d9411935b.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
 }
