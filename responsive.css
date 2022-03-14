@@ -26,6 +26,31 @@
   .message-form{ 
     max-width: 880px; 
   } 
+  /* footer */
+  .container-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logo logo"
+                          "about follow";
+    
+    grid-column: 50% 50%;
+    margin: 0 auto;
+  }
+  .container-footer *{
+    margin: 0 auto;
+  }
+  .logo-footer{
+    
+    grid-area: logo;
+  }
+  .follow{
+    
+    grid-area: follow;
+  }
+  .about{
+    
+    grid-area:about;
+  }
 }
 
 /* Untuk Smartphone */
@@ -70,4 +95,18 @@
   }
 
   /*Footer Content*/
+  
+  .container-footer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .list li{
+    text-align: center;
+  }
 }
