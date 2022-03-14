@@ -163,6 +163,7 @@ a {
   margin: 0 auto; 
   background-color: #FFFFFF; 
   border-radius: 20px; 
+  position: relative; 
 } 
  
 .section-title { 
@@ -209,9 +210,10 @@ input[type=text], select, textarea {
 } 
  
 .img { 
-  position: relative; 
+  position: absolute;
   float: right; 
-  top: -255px; 
+  right: 5%;
+  top: 0; 
 }
 
 /*Footer Section*/
@@ -236,7 +238,6 @@ footer{
   max-width: 200px;
 }
 .logo-footer img{
-  
   width: 100px;
 }
 .logo-text{
@@ -245,10 +246,6 @@ footer{
 }
 .title{
   font-size:22px;
-}
-.yellow{
-  color: rgb(245, 221, 7);
-  
 }
 .list li{
   list-style: none;
