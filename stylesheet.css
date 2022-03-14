@@ -168,6 +168,7 @@ a {
 .desc-main p{
   font-size: 12px;
 }
+
 /*Message Section*/
 .message { 
   background-color: #010D1C; 
@@ -239,10 +240,10 @@ input[type=text], select, textarea {
 
 /*Footer Section*/
 footer{
-  
   background-color: black;
   color:white;
 }
+
 .container-footer{
   max-width: 1170px; 
   display: grid;
@@ -252,34 +253,40 @@ footer{
   padding:100px 0;
   
 }
+
 .logo-footer{
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 200px;
 }
+
 .logo-footer img{
   width: 100px;
 }
+
 .logo-text{
   text-align: center;
   margin-top:20px;
 }
+
 .title{
   font-size:22px;
 }
+
 .list li{
+  cursor: pointer;
   list-style: none;
   margin-top: 20px;
   font-size: 18px;
   transition: all ease 0.5s;
-
 }
 
 .copyright hr{
   width: 90%;
   border: 1px thin white;
 }
+
 .copyright h6{
   font-size: 18px;
   text-align: center;
