@@ -31,7 +31,28 @@ a {
 
 
 /*Header Section*/
+  header{
+  background-color: black;
+  height: 65px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+  position: fixed;
+}
 
+.header-left{
+  float: left;
+}
+
+.logo {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.header-right{
+  transition: all 0.5s;
+  float: right;
+}
 
 /*Main Section*/
 .banner {
