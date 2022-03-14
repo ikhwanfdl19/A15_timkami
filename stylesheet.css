@@ -54,6 +54,31 @@ a {
   float: right;
 }
 
+header li{
+  display: inline;
+  padding: 10px;
+  line-height: 65px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header a{
+  color: white;
+}
+
+header li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-icon {
+  color: white;
+  padding: 20px 0;
+  font-size: 25px;
+  float: right;
+  display: none;
+  clear: right;
+}
+
 /*Main Section*/
 .banner {
   padding: 190px 100px 0;
