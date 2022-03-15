@@ -32,7 +32,7 @@ a {
 
 /*Header Section*/
   header{
-  background-color: black;
+  background-color: #010D1C;
   height: 65px;
   width: 100%;
   margin: 0 auto;
@@ -268,7 +268,7 @@ input[type=text], select, textarea {
 
 /*Footer Section*/
 footer{
-  background-color: black;
+  background-color: #010D1C;
   color:white;
 }
 
