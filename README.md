@@ -8,4 +8,5 @@ Nama Kelompok A15 :
 5. Iman Nurohman
 
 
-![Gambar](https://user-images.githubusercontent.com/61586755/158162812-b4e8b882-cd50-4e5c-a740-941087181079.jpg)
+![wireframe](https://user-images.githubusercontent.com/61586755/158377183-45dd9c68-806a-4977-aafe-2e77d2fc7656.jpg)
+
